@@ -15,7 +15,7 @@ public class PessoaService {
 	@Autowired
 	private PessoaRepository pessoaRepository;
 	
-	private List<Pessoa> findAll(){
+	public List<Pessoa> findAll(){
 		return pessoaRepository.findAll();
 	}
 	
